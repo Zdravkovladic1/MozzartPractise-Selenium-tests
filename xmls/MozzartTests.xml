@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Product tests">
+
+    <parameter name="username" value=" zdravkovic.test"/>
+    <parameter name="password" value="testing1!"/>
+
+
+    <test name="Fast sports ticket">
+        <classes>
+            <class name="tests.FastTicket"/>
+        </classes>
+    </test>
+
+    <test name="Virtual ticket">
+        <classes>
+            <class name="tests.VirtualTicket"/>
+        </classes>
+    </test>
+
+</suite>
